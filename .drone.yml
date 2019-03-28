@@ -8,3 +8,9 @@ steps:
   - cd app
   - npm install
   - node index.js
+  - echo "bah" > one-thing
+
+- name: backend
+  image: node
+  commands:
+  - cat one-thing
