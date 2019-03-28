@@ -9,6 +9,7 @@ services:
     volumes:
       - /var/lib/drone:/var/lib/drone/
       - /var/lib/drone:/data
+      - /var/run/docker.sock:/var/run/docker.sock
     restart: always
     environment:
       - DRONE_GITHUB_SERVER=https://github.com
