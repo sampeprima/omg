@@ -1,0 +1,10 @@
+kind: pipeline
+name: default
+
+steps:
+- name: frontend
+  image: node
+  commands:
+  - cd app
+  - npm install
+  - node index.js
