@@ -1,0 +1,5 @@
+DRONE_HOST=localhost:9090
+DRONE_GITHUB_CLIENT=aaaa
+DRONE_GITHUB_SECRET=aaaa
+DRONE_SECRET=drone-local-bla-bla-bla
+
